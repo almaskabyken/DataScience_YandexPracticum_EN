@@ -1,1 +1,1 @@
-# Data-Science_Yandex-Practicum
+# DataScience_YandexPracticum (RUS)
