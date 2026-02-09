@@ -1,19 +1,21 @@
 /* =========================================================
-   ЗАДАЧА №1 
+   TASK #1
    =========================================================
-   Для стран, в которых есть стартапы, зарегистрированные в 2011–2013,
-   постройте сводную таблицу:
+   For countries where startups were founded in 2011–2013,
+   build a summary table with the following fields:
 
    - country_code
    - avg_funding_2011 / 2012 / 2013
-   - share_2011: доля среднего 2011 года от суммы средних 2011 по всем странам
-   - rank_2011: ранг страны по avg_funding_2011
+   - share_2011: share of 2011 average funding relative to
+     the total sum of 2011 averages across all countries
+   - rank_2011: country rank based on avg_funding_2011
 
-   Условия:
-   - учитывать только 2011–2013
-   - оставить только страны, у которых есть данные за все 3 года
-   - сортировка по avg_funding_2011 DESC
+   Conditions:
+   - Include only years 2011–2013
+   - Keep only countries that have data for all 3 years
+   - Sort by avg_funding_2011 DESC
    ========================================================= */
+
 
 WITH base AS (
     SELECT
@@ -49,15 +51,20 @@ ORDER BY avg_funding_2011 DESC;
 
 
 /* =========================================================
-   ЗАДАЧА №2
+   TASK #2
    =========================================================
-   Отобрать данные по месяцам (номер месяца) за 2010–2013 годы и получить:
+   Extract monthly data (month number) for the period 2010–2013
+   and calculate the following metrics:
 
-   - month: номер месяца
-   - unique_funds_usa: кол-во уникальных фондов из США, инвестировавших в раунды
-   - acquired_companies_count: кол-во купленных компаний в этом месяце
-   - total_deal_amount: сумма сделок по покупкам в этом месяце
+   - month: month number
+   - unique_funds_usa: number of unique US-based funds that
+     invested in funding rounds during the month
+   - acquired_companies_count: number of companies acquired
+     during the month
+   - total_deal_amount: total acquisition deal amount during
+     the month
    ========================================================= */
+
 
 WITH
 funds_cte AS (
