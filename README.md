@@ -1,11 +1,7 @@
-*🇬🇧  This repository contains a selection of my Data Science projects completed during the Yandex Practicum Data Science program.  
-This repository is currently in Russian. An English version will be published separately.*
-
-*🇷🇺  В этом репозитории собрана часть моих проектов по Data Science, выполненных в рамках программы Yandex Practicum — Data Scientist.  
-Репозиторий представлен на русском языке. Англоязычная версия проектов будет добавлена отдельно.*
-
+*🇬🇧  This repository is currently in Russian. An English version will be published separately.*
 
 # Data Science проекты — Yandex Practicum
+В этом репозитории собрана часть моих проектов по Data Science, выполненных в рамках программы **Yandex Practicum — Data Scientist**.  
 Программа охватывает полный цикл работы с данными — от SQL и анализа данных до построения моделей машинного обучения и решения реальных бизнес-задач.
 
 ---
