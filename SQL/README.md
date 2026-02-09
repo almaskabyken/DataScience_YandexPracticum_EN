@@ -1,16 +1,16 @@
-# Startup Investments — SQL Анализ
+# Startup Investments — SQL Analysis
 
-## Описание проекта
-В рамках проекта выполнен SQL-анализ датасета **Startup Investments (Crunchbase 2013 Snapshot)**.  
-Основная цель — исследовать инвестиции в стартапы, выявить тренды по странам, годам и типам инвестиций.
+## Project Description
+This project performs SQL analysis of the **Startup Investments (Crunchbase 2013 Snapshot)** dataset.  
+The main goal is to explore startup investments and identify trends across countries, years, and investment types.
 
 ---
 
-## Данные
-Источник: Kaggle — Startup Investments Dataset  
+## Data
+Source: Kaggle — Startup Investments Dataset  
 https://www.kaggle.com/datasets/justinas/startup-investments  
 
-Датасет:
+Dataset tables:
 * company  
 * funding_round  
 * investment  
@@ -19,12 +19,10 @@ https://www.kaggle.com/datasets/justinas/startup-investments
 * people  
 * education  
 
-
 ---
 
-## Используемые инструменты
-* SQL
-* JOIN, GROUP BY, CTE, оконные функции
-* Агрегации  
-* Работа с датами  
-
+## Tools Used
+* SQL  
+* JOIN, GROUP BY, CTE, Window Functions  
+* Aggregations  
+* Date operations  
