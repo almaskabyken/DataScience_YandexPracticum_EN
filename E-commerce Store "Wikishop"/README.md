@@ -1,18 +1,18 @@
-# Классификация токсичных комментариев
+# Toxic Comment Classification
 
-## Описание проекта
-Цель проекта — разработать модель машинного обучения для автоматического определения токсичных комментариев. Решение может использоваться для модерации пользовательского контента, фильтрации сообщений и повышения качества онлайн-коммуникации.
+## Project Description
+The goal of this project is to develop a machine learning model for **automatic toxic comment detection**. The solution can be used for user content moderation, message filtering, and improving the quality of online communication.
 
-В проекте используются текстовые данные комментариев и методы обработки естественного языка (NLP). Для извлечения признаков применяется предобученная модель Toxic-BERT, после чего используются классические алгоритмы машинного обучения для классификации.
+The project uses text comment data and Natural Language Processing (NLP) techniques. A pre-trained Toxic-BERT model is used for feature extraction, followed by classical machine learning algorithms for classification.
 
 ---
 
-## Навыки и инструменты
+## Skills and Tools
 * pandas
 * NumPy
 * matplotlib
 * seaborn
-* NLP (очистка текста, токенизация, стоп-слова)
+* NLP (text cleaning, tokenization, stop words)
 * Transformers (Toxic-BERT)
 * PyTorch
 * Scikit-learn
@@ -27,40 +27,40 @@
 
 ---
 
-## Данные
-* Общее количество комментариев — 159 292
-* Доля токсичных комментариев — 10.2%
-* Данные содержат текст комментария и метку токсичности
+## Data
+* Total number of comments — 159,292
+* Share of toxic comments — 10.2%
+* The dataset contains comment text and toxicity labels
 
 ---
 
-## Этапы работы
+## Project Stages
 
-### 1. Предобработка текста
-* Очистка текста
-* Приведение к нижнему регистру
-* Удаление стоп-слов
-* Частотный анализ слов
+### 1. Text Preprocessing
+* Text cleaning
+* Lowercasing
+* Stop word removal
+* Word frequency analysis
 
-### 2. Подготовка данных
-* Разделение на train / test
-* Использование подвыборки 5000 текстов
-* Токенизация текста через Toxic-BERT
-* Получение текстовых эмбеддингов
+### 2. Data Preparation
+* Train / test split
+* Using a subset of 5,000 texts
+* Text tokenization using Toxic-BERT
+* Text embedding generation
 
-### 3. Обучение моделей
+### 3. Model Training
 * Logistic Regression
 * Random Forest
 * Gradient Boosting
 * XGBoost
 * SVM
 
-### 4. Выбор лучшей модели
-* Лучшая модель — Random Forest
+### 4. Best Model Selection
+* Best model — Random Forest
 * F1-score (Validation) = 0.8776
 * F1-score (Test) = 0.8932
 
 ---
 
-## Заключение
-Разработанная модель показывает высокое качество классификации токсичных комментариев и может использоваться в системах автоматической модерации контента.
+## Conclusion
+The developed model demonstrates high performance in toxic comment classification and can be used in automated content moderation systems.
