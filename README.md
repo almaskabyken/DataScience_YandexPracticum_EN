@@ -1,5 +1,5 @@
 🇷🇺 Этот репозиторий ведётся на английском языке.  
-Русская версия доступна: [Перейти к русской версии](https://github.com/almaskabyken/DataScience_YandexPracticum_RU)
+Русская версия: [Перейти к русской версии](https://github.com/almaskabyken/DataScience_YandexPracticum_RU)
 
 
 # Data Science Projects — Yandex Practicum
